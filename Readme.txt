@@ -1,0 +1,5 @@
+Mouse and keyboard behavior study program:
+This is a Python program that runs in the background and captures mouse and keyboard events. The program uses the pyHook and pythoncom libraries to register hooks for mouse and keyboard events, and the logging library to save the events to a file. The program runs indefinitely, sleeping for 30 minutes between each logging operation.
+
+API behavior study program:
+This is a Python program that can be used to study the behavior of an API. It makes an HTTP request to the specified API endpoint and processes the response data to extract relevant information. The program defines a function called study_api() that takes an API URL as an input and makes an HTTP GET request to that URL using the requests library. If the request is successful (i.e. it returns a status code of 200), the function processes the response data to extract the number of items in the response and the data type of each item. The extracted information is then saved to a file called api_study.txt using the open() and write() functions. If the request is unsuccessful (i.e. it returns a status code other than 200), the function prints an error message.
